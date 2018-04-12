@@ -3,6 +3,7 @@
   <head>
     <base href="/">
     <title>ng Events</title>
+	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" href="node_modules/toastr/build/toastr.min.css">
@@ -19,7 +20,7 @@
     
     <script src="systemjs.config.js"></script>
     <script>
-      System.import('app').catch(function(err){ console.error(err); });
+      System.import('app/main.js').catch(function(err){ console.error(err); });
     </script>
   </head>
   
